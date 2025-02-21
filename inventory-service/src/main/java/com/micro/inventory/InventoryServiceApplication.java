@@ -32,11 +32,11 @@ public class InventoryServiceApplication {
 			LinkedHashMap.LinkedEntry<String,String> obj;
 
 			Inventory inventory=new Inventory();
-			inventory.setSkuCode("iphone_13");
+			inventory.setSkuCode("J2EE");
 			inventory.setQuantity(100);
 
 			Inventory inventory2=new Inventory();
-			inventory2.setSkuCode("iphone_13_red");
+			inventory2.setSkuCode("SpringBoot");
 			inventory2.setQuantity(0);
 			inventoryRepository.save(inventory);
 			inventoryRepository.save(inventory2);
